@@ -1,0 +1,238 @@
+body{
+    /* background-color: rgb(170, 113, 113); */
+    margin: 0;
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column; */
+    /* direction: rtl; */
+    /* justify-content: center;
+    align-items: center; */
+    /* height: 100%; */
+    background-color: #FFC107;
+}
+#nav1{
+    height: 15%;
+    background-color: #7952B3;
+    font-size: 30px;
+        font-family: 'Caveat', cursive;
+
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    /* display: flex; */
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-bottom: -106px;
+}
+/* .navpar{ list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color:753422;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    height: 75px;;
+    }
+    .a1:visited{color:rgb(255, 255, 255);
+        text-decoration:solid;
+    
+    }
+    .a1
+    {
+        text-decoration: none;
+    }
+    
+    .a1:hover
+    {
+        text-decoration: underline;
+    }
+    .navparItem{margin-top: 15px;}
+     */
+    /* navbar end */
+
+li{
+    background-color: #E1E8EB;
+}
+#e4{
+    background-color: #9ea5a8;
+}
+#nav2{
+    height: 15%;
+    background-color: rgba(255, 55, 65, 0.897);
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+ol{
+    /* height: 80px; */
+
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+font-size: xx-large; 
+align-items: center;
+}
+/* #e4{
+    background-color: #9ea5a8;
+} */
+header{
+    display: flex;
+    flex-direction: row;
+    /* margin-right: 5%; */
+    direction: rtl;
+}
+#sawsan{
+    height: 50px;
+    width: 50px;
+}
+/* .slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500px;
+    height: 500px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background: red;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+.navigation-auto div{
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: red;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: red;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: red;
+} */
+#slider{
+    overflow: hidden;
+    height: 75%;
+    width: 100%;
+    margin-top: 106px;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.rana{
+    width: 80%;
+    height: 100%;
+
+}
+#slider figure img{ width: 20%;
+float: left;}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{ 
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.f{
+width: 50px;
+height: 50px;}
+    
+   
+footer{
+    background-color: #E1E8EB;
+    height: 10%;
+    width: 100%;
+   display: flex;
+    flex-direction: row;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+#saw{
+    background-color: #FFC107;
+    border-style: ridge;
+    border-radius: 50%;
+    padding: 20px;
+}
